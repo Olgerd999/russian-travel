@@ -14,6 +14,16 @@
         grid-template-columns: minmax(768px, 928px);
         grid-template-rows: auto auto auto auto;
     }
+    .map__way {
+        width: 836px;
+        max-height: 212px;
+    }
+    .gallery {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3, auto);
+        gap: 16px;
+    }
 }
 
 @media screen and (max-width: 640px) {
