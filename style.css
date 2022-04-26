@@ -495,12 +495,13 @@
         margin: 0;
     }
     .map__way {
-        margin-top: 128px;
+        margin-top: 40px;
         grid-column: 1;
         grid-row: 3;
         justify-self: center;
-        width: 886px;
-        max-height: 225px;
+        width: 100%;
+        /* max-height: 225px; */
+        padding: 0 15px 0 15px;
     }
 
     .nav_position_top {
