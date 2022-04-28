@@ -14,7 +14,7 @@
 	.description {
 		display: grid;
 		grid-template-rows: auto auto auto;
-		grid-template-columns: minmax(280px, 700px)
+		grid-template-columns: minmax(280px, 700px);
 	}
 }
 
