@@ -1,0 +1,13 @@
+.onthedogs__baikal {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+.onthedogs__baikal:hover {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    opacity: .3;
+}

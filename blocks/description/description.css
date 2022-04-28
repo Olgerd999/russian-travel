@@ -1,0 +1,20 @@
+.description {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 690px;
+}
+@media screen and (max-width: 768px) {  
+    .description {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: minmax(400px, 720px);
+    }
+}
+@media screen and (max-width: 568px) {
+	.description {
+		display: grid;
+		grid-template-rows: auto auto auto;
+		grid-template-columns: minmax(280px, 700px)
+	}
+}
+

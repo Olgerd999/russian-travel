@@ -1,0 +1,32 @@
+.header__subtitle {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    color: #FFFFFF;
+    max-width: 640px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    Line-height: 36px;
+    padding-bottom: 64px;
+    margin: 0;
+}
+@media screen and (max-width: 568px) {
+    .header__subtitle {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: center;
+        color: #FFFFFF;
+        max-width: 640px;
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+        font-family: 'Inter';
+        font-weight: 400;
+        Line-height: 20px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+}

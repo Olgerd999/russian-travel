@@ -1,0 +1,13 @@
+.onthedogs__item {
+    padding-top: 92px;
+}
+@media screen and (max-width: 768px) {  
+    .onthedogs__item {
+        padding-top: 90px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .onthedogs__item {
+        padding-top: 66px;
+    }
+}

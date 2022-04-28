@@ -1,0 +1,28 @@
+.description__content {
+    padding-top: 114px;
+    padding-bottom: 92px;
+    padding-left: 148px;
+}
+@media screen and (max-width: 1024px) {
+    .description__content {
+        padding-top: 114px;
+        padding-bottom: 92px;
+        padding-left: 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .description__content {
+        padding-top: 114px;
+        padding-bottom: 92px;
+        padding-left: 24px;
+        padding-right: 24px;
+    } 
+}
+@media screen and (max-width: 568px) {
+    .description__content {
+        padding-top: 114px;
+        padding-bottom: 92px;
+        padding-left: 16px;
+        padding-right: 16px;
+    } 
+}
