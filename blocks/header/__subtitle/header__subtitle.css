@@ -9,7 +9,7 @@
     margin: 0;
     font-family: 'Inter';
     font-weight: 400;
-    Line-height: 36px;
+    line-height: 36px;
     padding-bottom: 64px;
 }
 @media screen and (max-width: 568px) {
