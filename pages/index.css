@@ -16,7 +16,7 @@
 @import url(../blocks/header/__undermap-text/header__undermap-text.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__title/description__title.css);
-@import url(../blocks/description/__content/description__content.css);
+@import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/description/__text/_position/description__text_position_article.css);
 @import url(../blocks/description/__footer/_position/description__footer_position_article.css);
 @import url(../blocks/description/__num/description__num.css);
@@ -33,7 +33,7 @@
 @import url(../blocks/place/__links/place__links.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/onthedogs/onthedogs.css);
-@import url(../blocks/onthedogs/__item/onthedogs__item.css);
+@import url(../blocks/page/__item/page__item.css);
 @import url(../blocks/onthedogs/__link/onthedogs__link.css);
 @import url(../blocks/onthedogs/__baikal/othedogs__baikal.css);
 @import url(../blocks/onthedogs/__title-wrapper/onthedogs__title-wrapper.css);
