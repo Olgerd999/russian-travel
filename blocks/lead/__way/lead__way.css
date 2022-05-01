@@ -1,0 +1,30 @@
+.lead__way {
+    padding-top: 90px;
+    grid-column: 1;
+    grid-row: 3;
+
+    justify-self: center;
+    width: calc(100% - 46px);
+    max-height: 262px;
+}
+@media screen and (max-width: 1024px) {
+    .lead__way {
+        width: calc(100% - 44px);
+        max-height: 248px;
+        padding-top: 85px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead__way {
+        padding-top: 70px;
+        width: calc(100% - 36px);
+        max-height: 100%;
+    }
+}
+@media screen and (max-width: 568px) {
+    .lead__way {
+        padding-top: 40px;
+        width: calc(100% - 15px);
+        
+    }
+}

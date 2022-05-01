@@ -1,27 +1,25 @@
 .page__content {
-    padding-top: 114px;
+    padding-top: 92px;
     padding-bottom: 92px;
     padding-left: 148px;
 }
 @media screen and (max-width: 1024px) {
     .page__content {
-        padding-top: 114px;
-        padding-bottom: 92px;
         padding-left: 48px;
     }
 }
 @media screen and (max-width: 768px) {
     .page__content {
-        padding-top: 114px;
-        padding-bottom: 92px;
+        padding-top: 88px;
+        padding-bottom: 88px;
         padding-left: 24px;
         padding-right: 24px;
     } 
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 320px) {
     .page__content {
-        padding-top: 114px;
-        padding-bottom: 92px;
+        padding-top: 64px;
+        padding-bottom: 64px;
         padding-left: 16px;
         padding-right: 16px;
     } 

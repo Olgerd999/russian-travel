@@ -1,7 +1,27 @@
 .onthedogs__title-wrapper {
-    grid-row: 1;
-    grid-column: 1;
-    justify-self: center;
-    align-self: center;
+    display: flex;
+    grid-row: 1/1;
+    grid-column: 1/1;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    color: #FFF;
+}
+.onthedogs__title-wrapper::before {
+    content: "";
+    position: absolute;
     z-index: 1;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    opacity: .3;
+} 
+.onthedogs__title-wrapper:hover::before {
+    opacity: .8;
 }

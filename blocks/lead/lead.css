@@ -1,0 +1,20 @@
+.lead {
+    display: grid;
+    grid-template-columns: minmax(928px, 984px);
+    grid-template-rows: repeat(4, auto);
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        grid-template-columns: minmax(768px, 928px);
+        padding: 0 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        grid-template-columns: minmax(320px, 768px);
+        padding: 0;
+    }
+}

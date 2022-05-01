@@ -8,36 +8,10 @@
 .footer__menu-item:last-child {
     margin-right: 0;
 }
-@media screen and (max-width: 768px) {  
-    .footer__menu-item {
-        margin-right: 18px;
-        font-size: 16px;
-        line-height: 18px;
-        font-family: 'Inter';
-        font-weight: 400;
-    }
-}
 @media screen and (max-width: 740px) {
     .footer__menu-item {
         margin-bottom: 32px;
         font-size: 24px;
         line-height: 24px;
-        font-family: 'Inter';
-        font-weight: 400;
-    }
-    .footer__menu-item:last-child {
-        margin-right: 0;
-    }
-}
-@media screen and (max-width: 568px) { 
-    .footer__menu-item {
-        margin-bottom: 32px;
-        font-size: 24px;
-        line-height: 24px;
-        font-family: 'Inter';
-        font-weight: 400;
-    }
-    .footer__menu-item:last-child {
-        margin-right: 0;
     }
 }

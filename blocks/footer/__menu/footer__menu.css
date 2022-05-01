@@ -7,22 +7,6 @@
 }
 @media screen and (max-width: 740px) {
     .footer__menu {
-        display: flex;
         flex-direction: column;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        color: #FFFFFF;
-    }
-}
-@media screen and (max-width: 568px) {
-
-    .footer__menu {
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        color: #FFFFFF;
     }
 }

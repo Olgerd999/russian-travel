@@ -1,14 +1,13 @@
-.onthedogs { 
+.onthedogs {
+    width:calc(100% - 96px);
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: minmax(728px, 1184px);
-    justify-content: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
 }
-@media screen and (max-width: 768px) {  
-    .onthedogs { 
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: minmax(320px, 748px);
+@media screen and (max-width: 1024px) {
+    .onthedogs {
         justify-content: center;
+        width:100%;
+        min-width: 300px;
     }
 }

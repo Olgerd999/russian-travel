@@ -1,0 +1,5 @@
+.header__switcher {
+    margin-bottom: 6px;
+    display: flex;
+    align-self: flex-end;
+}

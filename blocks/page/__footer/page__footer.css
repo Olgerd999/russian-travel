@@ -19,18 +19,14 @@
 }
 @media screen and (max-width: 740px) {
     .page__footer {
-        display: flex;
         flex-direction: column;
-        margin: 0 auto;
         padding: 64px 0 24px 16px;
         margin-top: 42px; 
     }
 }
 @media screen and (max-width: 568px) {
     .page__footer {
-        display: flex;
         flex-direction: column;
-        margin: 0 auto;
         padding: 64px 0 24px 16px;
     }
 }

@@ -7,12 +7,12 @@
     text-align: center;
     margin: 0 auto;
     color: #FFFFFF;
+    z-index: 1;
 }
 @media screen and (max-width: 568px) {
     .onthedogs__subtitle {
         font-size: 14px;
         line-height: 16px;
         max-width: 288px;
-        text-align: center;
     }
 }

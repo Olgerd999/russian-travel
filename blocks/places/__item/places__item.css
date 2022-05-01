@@ -1,15 +1,20 @@
 .places__item {
     max-width: 984px;
     margin: 0 auto;
-    padding-top: 92px;
+    padding-top: 80px;
 }
 @media screen and (max-width: 1024px) {
     .places__item {
-        padding: 92px 48px 0;
+        padding: 80px 48px 0;
     }
 }
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 768px) {
     .places__item {
-        padding: 88px 24px 0;
+        padding: 76px 24px 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .places__item {
+        padding: 52px 0 0;
     }
 }
