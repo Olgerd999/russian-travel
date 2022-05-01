@@ -6,7 +6,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__switcher/header__switcher.css);
 @import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/header/__lang/_lang/header__lang_lang_en.css);
+@import url(../blocks/header/__lang/header__lang_disabled.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/lead/lead.css);
@@ -41,7 +41,7 @@
 @import url(../blocks/onthedogs/__title-wrapper/onthedogs__title-wrapper.css);
 @import url(../blocks/onthedogs/__title/onthedogs__title.css);
 @import url(../blocks/onthedogs/__subtitle/onthedogs__subtitle.css);
-@import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-item/footer__menu-item.css);
 @import url(../blocks/footer/__author/footer__author.css);

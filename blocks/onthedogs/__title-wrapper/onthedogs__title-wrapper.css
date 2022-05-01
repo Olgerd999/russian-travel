@@ -5,10 +5,16 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: relative;
     text-decoration: none;
     color: #FFF;
+
+    /* background-image: url('../../../images/__background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 62.5%; */
+    
 }
 .onthedogs__title-wrapper::before {
     content: "";
@@ -25,3 +31,5 @@
 .onthedogs__title-wrapper:hover::before {
     opacity: .8;
 }
+
+

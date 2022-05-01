@@ -2,9 +2,10 @@
     grid-row: 1/1;
     grid-column: 1/1;
     width: 100%;
-    padding-bottom: 62.5%;
+    
     background-image: url('../../../images/__background.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    display: block;
+    padding-bottom: 62.5%;
+    
 }
